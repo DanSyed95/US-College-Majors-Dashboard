@@ -1,0 +1,70 @@
+/*Stylesheet for Entire Project */
+
+/* Header elements */
+header {
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* main div */
+.main {
+    background-color: rgb(255, 243, 238);
+    width: 1500px;
+    height: 3000px;
+    border: 2px solid black;
+    position: absolute;
+}
+
+/* Major Category Bar Chart Div*/
+.categoryBar {
+    margin: 5px 0 0 10px;
+}
+
+/* Top 5 Majors Bar Chart Div*/
+.dropdown {
+    top: 797px;
+    left: 30px;
+    position: absolute;
+
+}
+
+/* Top 5 Majors Bar Chart Div*/
+.top5MajorsBar {
+    margin: 5px 0 0 10px;
+}
+
+/* Grad Student Percentage Pie Chart Div*/
+.gradStudentPie {
+    margin: 5px 0 0 915px;
+    bottom: 1857px;
+    position: absolute;
+}
+
+/* Employment Percentage Pie Chart Div*/
+.employmentPie {
+    margin: 1px 0 0 915px;
+    bottom: 1507px;
+    position: absolute;
+}
+
+/* Employability in Women Dominated Majors Scatter (Negative) Div*/
+.negativeScatter {
+    margin: 2px 0 0 750px;
+    bottom: 800px;
+    position: absolute;
+}
+
+/* Employability in Women Dominated Majors Scatter (Positive) Div*/
+.positiveScatter {
+    margin: 2px 0 0 5px;
+    bottom: 800px;
+    position: absolute;
+}
+
+/* Pack Hierarchical Cluster Div*/
+.packCluster {
+    margin: 5px 0 0 5px;
+    bottom: 72px;
+    position: absolute;
+}

@@ -1,0 +1,56 @@
+<!--F21DV Course Work 2 HTML file for Daniyal Syed - H00155307-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>F21DV Course Work 2 for Daniyal Syed</title>
+    <!--Main CSS stylesheet-->
+    <link rel="stylesheet" href="main.css">
+    <!--D3.js library-->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <!--Page Title-->
+    <header>
+        <h1>US College Majors Dashboard</h1>
+        <h2>Data from the American Community Survey 2010-2012 </h2>
+    </header>
+    <!--Main Page div-->
+    <div class="main">
+        <!--Major's Category Div-->
+        <div class="categoryBar">
+            <h3 style="font-family: Helvetica, sans-serif;">Total US Graduates by Major Category</h3>
+            <script src="mainBar.js"></script>
+        </div>
+        <!--Top 5 Majors Overall and by Category Div-->
+        <div class="top5MajorsBar">
+            <!--Dropdown menu for category selection-->
+            <div class="dropdown"></div>
+            <script src="top5Majors.js"></script>
+        </div>
+        <!--Grad vs Non-Grad Div-->
+        <div class="gradStudentPie">
+            <script src="gradStudentPie.js"></script>
+        </div>
+        <!--Employed vs Unemployed Div-->
+        <div class="employmentPie">
+            <script src="employmentPie.js"></script>
+        </div>
+        <!--Negative Scatter Plot Div-->
+        <div class="negativeScatter">
+            <script src="negativeScatter.js"></script>
+        </div>
+        <!-- Positive Scatter Plot Div-->
+        <div class="positiveScatter">
+            <script src="positiveScatter.js"></script>
+        </div>
+        <!--Pack Hierarchical Cluster Div-->
+        <div class="packCluster">
+            <script src="pack.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
