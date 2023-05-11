@@ -2,7 +2,7 @@
 
 US College Majors Dashboard
 
-Dataset from FiveThirtyEight 
+Datasets from FiveThirtyEight avaliable at https://github.com/fivethirtyeight/data/tree/master/college-majors
 
 Data Originally from American Community Survey 2010-2012 Public Use Microdata Series.
 
